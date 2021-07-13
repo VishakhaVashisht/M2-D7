@@ -384,6 +384,26 @@
         EX19) Write a function and attach it to the "Older" button, to remove the last Blog Post
         EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
     */
+
+    function addDynamicLink(){
+        let newLink = document.querySelector('.nav')
+        let link = document.createElement('a')
+        link.innerHTML = 'dynamic link'
+        newLink.append(link)
+    }
+
+    function changeColorTitle(){
+0
+        let title = document.querySelector('.jumbotron .display-4')
+        title.innerHTML = 'I am New Title '
+    }
+    function changeBackground(){
+        let newColor = document.querySelector('.jumbotron')
+        newColor.style.background= 'red'
+    }
+    addDynamicLink()
+    changeColorTitle()
+    changeBackground()
     </script>
   
 

@@ -13,26 +13,28 @@
 }
 
 .blog-post:first-of-type{
-    background-color: red ;
+    background-color:#617366 ;
     font-size: large;
 }
 .nav>a:nth-child(even){
-    background:red;
+    background:#ffcdc0;
 }
 .blog-post:last-of-type{
-    background-color: red ;
+    background-color:#617366 ;
     font-size: large;
-}
-.blog-sidebar ol.list-unstyled {
-    border: 1px solid;
 }
 
 .blog-post:nth-of-type(2) .blog-post-meta a {
     padding: 4px;
-    background-color: red;
+    background-color: #617366;
     color: beige;
 }
 
-body p:last-of-type a{
-    background-color: red;
+body p:last-of-type a {
+    background-color: #617366;
+    color: #000;
+    padding: 10px;
+}
+.blog-sidebar div:nth-of-type(2) ol{
+    border: 1px solid;
 }

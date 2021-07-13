@@ -401,9 +401,32 @@
         let newColor = document.querySelector('.jumbotron')
         newColor.style.background= 'red'
     }
+
+    function deleteLink(){
+        let deleteLink = document.querySelector('.blog-sidebar div:nth-of-type(3) ol')
+        deleteLink.innerHTML = ''
+        
+    }
+
+    function changeColumnSize(){
+        let columnSize = document.querySelector('.jumbotron div.col-md-6')      
+
+    }
+    function deleteGlassIcon(){
+        let glass = document.querySelector('.blog-header x`a.text-muted svg')
+        glass.remove()
+    }
+
+    
+    function setLimitCharacter(str,num){
+        return str;
+    }
     addDynamicLink()
     changeColorTitle()
     changeBackground()
+    deleteLink()
+    deleteGlassIcon()
+    setLimitCharacter()
     </script>
   
 
